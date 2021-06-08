@@ -1,0 +1,35 @@
+DELETE http://localhost:8080/messages/poll
+Accept: application/json
+
+###
+
+
+GET http://localhost:8080/messages/peekmax
+Accept: application/json
+
+###
+
+
+
+GET http://localhost:8080/messages/peek
+Accept: application/json
+
+###
+
+
+
+GET http://localhost:8080/messages/
+Accept: application/json
+
+###
+POST http://localhost:8080/messages/
+Content-Type: application/json
+
+{
+  "messageText": " lalala"
+}
+###
+
+
+
+
